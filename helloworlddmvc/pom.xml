@@ -38,4 +38,20 @@
     </plugins>
   </reporting>
   <packaging>pom</packaging>
+  <modules>
+  	<module>helloworldmvc.controller</module>
+  	<module>helloworldmvc.model</module>
+  	<module>helloworldmvc.view</module>
+  	<module>helloworld.Contract</module>
+  	<module>helloworldmvc.main</module>
+  </modules>
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>fr.exia</groupId>
+  			<artifactId>helloworld.Contract</artifactId>
+  			<version>0.0.1-SNAPSHOT</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
 </project>
